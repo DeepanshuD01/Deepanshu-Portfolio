@@ -295,3 +295,22 @@ ScrollTrigger.refresh();
 
 }
 // loco();
+
+
+   var side = document.querySelector("#main #nav #side-scr")
+   var menu = document.querySelector("#nav-part2 h2")
+   var flagg = 0
+   menu.addEventListener("click", function(){
+       if(flagg==0){
+       side.style.top = "5vh";      
+       setTimeout(function(){        
+           menu.innerHTML = '<i id="close" class="ri-close-circle-line"></i>'
+           flagg++
+       },500)
+       }else{
+           menu.innerHTML = '<i id="menu" class="ri-menu-line">'
+           menu.style.marginRight = "0px"
+           side.style.top = "-100vh";
+           flagg=0
+       }
+   })
