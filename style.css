@@ -1,10 +1,10 @@
 @font-face {
     font-family: Gilroy;
-    src: url("/Gilroy-ExtraBold.otf");
+    src: url("/fonts/Gilroy-ExtraBold.otf");
 }
 @font-face {
     font-family: Gilroy1;
-    src: url("/Gilroy-Light_0.otf");
+    src: url("/fonts/Gilroy-Light_0.otf");
 }
 *{
     margin:0;
